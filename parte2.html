@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylepart2.css">
+    <title>Parte 2 - Desafio condicion</title>
+</head>
+<body>
+    <a href="index.html">Volver</a><br>
+    
+    <p>Puedes llevar hasta 10 Stickers en total</p>
+
+    <div class="stickers">
+        <div class="sticker">
+            <img src="assets/imgs/github.jpg" alt="github">
+            <input type="number" id="cantidadGithub">
+        </div>
+        <div class="sticker">
+            <img src="assets/imgs/slack.jpg" alt="Slack">
+            <input type="number" id="cantidadSlack">
+        </div>
+        <div class="sticker">
+            <img src="assets/imgs/git.webp" alt="git">
+            <input type="number" id="cantidadGit">
+        </div>
+    </div>
+    <p>Llevas <span id="cantidadTotal">0</span> stickers. </p>
+
+    <button onclick="calculoSticker()">Verificar</button>
+
+    <script src="assets/js/parte2.js"></script>
+</body>
+</html>
